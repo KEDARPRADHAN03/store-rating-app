@@ -22,7 +22,7 @@ export default function ChangePassword() {
   };
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" minHeight="100vh" bgcolor="#f5f5f5">
+    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', bgcolor: '#f5f5f5' }}>
       <Paper elevation={3} sx={{ p: 4, width: 400 }}>
         <Typography variant="h5" mb={3} fontWeight="bold">Change Password</Typography>
         {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
